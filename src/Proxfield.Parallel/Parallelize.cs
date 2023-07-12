@@ -3,7 +3,7 @@ using System.Reflection.Metadata.Ecma335;
 
 namespace Proxfield.Parallel
 {
-    public class Parallel
+    public class Parallelize
     {
         /// <summary>
         /// 
