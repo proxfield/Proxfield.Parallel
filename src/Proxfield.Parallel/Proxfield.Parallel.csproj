@@ -4,6 +4,33 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+    <Authors>Proxfield</Authors>
+    <PackageIcon>images\company-logo.png</PackageIcon>
+    <PackageIconUrl>https://proxfield.com/public/favicon.png</PackageIconUrl>
+    <PackageId>Proxfield.Parallel</PackageId>
+    <Version>1.0.0</Version>
+    <PackageTags>Proxfield</PackageTags>
+    <Description>Paralelize tasks across multiple threads assyncronously.</Description>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/proxfield/Proxfield.Parallel</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/proxfield/Proxfield.Parallel</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Company>Proxfield</Company>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+   <ItemGroup>
+        <None Include="..\..\docs\images\parallel.png" Pack="true" Visible="false" PackagePath="images\parallel.png" />
+        <None Include="..\..\LICENSE.md">
+            <Pack>True</Pack>
+            <PackagePath>\</PackagePath>
+        </None>
+        <None Include="..\..\README.md">
+          <Pack>True</Pack>
+          <PackagePath>\</PackagePath>
+        </None>
+    </ItemGroup>
 
 </Project>

@@ -8,4 +8,4 @@ List<string> letters = new()
 await Parallelize.ParallelForEachAsync(letters, async (_) =>
 {
     // DO STUFF HERE
-});
+}, DegreeOfParallelization.High);
