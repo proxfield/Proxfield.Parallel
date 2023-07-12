@@ -48,3 +48,16 @@ public const int High = 100;
 * DegreeOfParallelization.Low: utilizes a single thread;
 * Medium: utilizes up to 10 concurrent threads;
 * High: utilizes up to 100 concurrent threads.
+
+## Platform Support
+
+Parallel is compiled for the following versions of frameworks:
+
+- [X] DotNet 6
+- [x] DotNet 5
+- [x] DotNet Core 3.1
+
+## License
+![GitHub License](https://img.shields.io/github/license/proxfield/Proxfield.Parallel)
+
+The MIT License ([MIT](LICENSE.md)) - Copyright (c) 2022-2023 Proxfield Consulting Group and its affiliates
