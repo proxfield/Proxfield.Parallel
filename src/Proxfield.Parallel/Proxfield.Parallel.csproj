@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
     <Authors>Proxfield</Authors>
-    <PackageIcon>images\company-logo.png</PackageIcon>
+    <PackageIcon>images\parallel.png</PackageIcon>
     <PackageIconUrl>https://proxfield.com/public/favicon.png</PackageIconUrl>
     <PackageId>Proxfield.Parallel</PackageId>
     <Version>1.0.0</Version>
