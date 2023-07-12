@@ -16,8 +16,7 @@ namespace Proxfield.Parallel
         public static Task ParallelForEachAsync<T>(
             IEnumerable<T> source,
             Func<T, Task> body,
-            int degreeOfParallelization = DegreeOfParallelization.Medium
-             )
+            int degreeOfParallelization = DegreeOfParallelization.Medium)
         {
             async Task awaitPartition(IEnumerator<T> partition)
             {
