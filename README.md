@@ -1,8 +1,8 @@
 # Proxfield.Parallel
 
-Paralelize tasks across multiple threads assyncronously.
+Parallelize tasks across multiple threads asynchronously.
 
-*Be aware*: this library takes advantages of systems with multiple threads/cores, if your system only have one core the performance could be detrimental.
+*Be aware*: this library takes advantage of systems with multiple threads/cores, if your system only have one core the performance could be detrimental.
 
 ```csharp
 await Parallelize.ParallelForEachAsync(myList, async (_) =>
@@ -12,7 +12,7 @@ await Parallelize.ParallelForEachAsync(myList, async (_) =>
 DegreeOfParallelization.High);
 ```
 
-Degree of paralelization:
+Degree of parallelization:
 
 ```csharp
 public const int Low = 1;
