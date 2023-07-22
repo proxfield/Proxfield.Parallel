@@ -9,7 +9,7 @@
     <PackageIcon>images\parallel.png</PackageIcon>
     <PackageIconUrl>https://proxfield.com/public/favicon.png</PackageIconUrl>
     <PackageId>Proxfield.Parallel</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <PackageTags>Proxfield</PackageTags>
     <Description>Paralelize tasks across multiple threads assyncronously.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
