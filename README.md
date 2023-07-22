@@ -1,4 +1,6 @@
-# Proxfield.Parallel
+<p align="center">
+<img src="https://github.com/proxfield/Proxfield.Parallel/assets/7343019/d756bcc1-c195-44b0-a171-f462c65c963c" />
+</p>
 
 Parallelize tasks across multiple threads asynchronously.
 
